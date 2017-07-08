@@ -1,5 +1,4 @@
 import { DataService } from '../data.service';
-import { Repository } from '../Repository';
 
 import { Component, Input, OnInit } from '@angular/core';
 

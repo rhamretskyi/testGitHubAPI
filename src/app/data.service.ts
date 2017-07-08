@@ -28,6 +28,10 @@ export class DataService {
 
     return this.get(url).then(resp => {
       window.open(resp.html_url)
+    }).catch(error => {
+      if (error.status === 404) {
+        alert(`Файл README не найден`);
+      }
     });
   }
 

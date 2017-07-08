@@ -1,0 +1,19 @@
+.avatar{
+    width: 60px;
+    border-radius: 50%;
+    padding: 20px 10px;
+}
+md-toolbar{
+    height: 100px;
+    padding: 25px;
+}
+.info{
+    width: 50%;
+}
+.info>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.login{
+    width: 50%;
+}

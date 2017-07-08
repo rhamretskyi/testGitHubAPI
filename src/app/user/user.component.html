@@ -1,0 +1,16 @@
+<md-toolbar>
+  <div class="info">
+    <div>
+      <img *ngIf="imgLink" class="avatar" src="{{imgLink}}" />
+    </div>
+    <div>
+      {{userFullName}}
+    </div>
+  </div>
+  <div class="login">
+    <md-input-container>
+      <input #userName mdInput placeholder="User Name" value="rhamretskyi">
+    </md-input-container>
+    <button md-button (click)="onUser(userName.value)">Get repositories</button>
+  </div>
+</md-toolbar>

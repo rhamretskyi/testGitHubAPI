@@ -1,0 +1,11 @@
+
+md-card{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    cursor: pointer;
+}
